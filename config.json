@@ -1,0 +1,27 @@
+{
+  "source": [
+    "tokens/tokens.json"
+  ],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "files": [
+        {
+          "destination": "_tokens.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "dart": {
+      "transformGroup": "js",
+      "buildPath": "build/dart/",
+      "files": [
+        {
+          "destination": "app_colors.dart",
+          "format": "flutter/dart"
+        }
+      ]
+    }
+  }
+}
